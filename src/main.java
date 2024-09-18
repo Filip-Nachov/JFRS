@@ -4,13 +4,13 @@ import java.awt.FlowLayout;
 
 class Main {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("JFRS");
-        frame.setLayout(new FlowLayout());
+        JFrame window = new JFrame("JFRS");
+        window.setLayout(new FlowLayout());
 
-        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-        frame.pack();
+        window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
+        window.pack();
 
-        frame.setSize(500, 500);
-        frame.setVisible(true);
+        window.setSize(500, 500);
+        window.setVisible(true);
     }
 }
