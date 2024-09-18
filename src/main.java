@@ -26,8 +26,8 @@ class Main {
             window.setIconImage(icon);
         }
 
-        
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setResizable(false);
         window.setTitle(TITLE);
         window.setSize(width, height);
         window.setLocationRelativeTo(null); // Center the window
