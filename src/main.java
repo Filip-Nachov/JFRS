@@ -5,13 +5,15 @@ import java.awt.FlowLayout;
 class Main {
     public static void main(String[] args) {
         String TITLE = "Totem Protector"; 
+        int width = 500;
+        int height = 500;
 
         JFrame window = new JFrame();
         window.setLayout(new FlowLayout());
 
         window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
         window.setTitle(TITLE);
-        window.setSize(500, 500);
+        window.setSize(width, height);
         window.setVisible(true);
     }
 }
