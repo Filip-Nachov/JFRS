@@ -3,7 +3,7 @@ import  javax.swing.JFrame;
 import java.awt.FlowLayout;
 
 public class main {
-    public static void main() {
+    public static void main(String[] args) {
         JFrame frame = new JFrame("JFRS");
         frame.setLayout(new FlowLayout());
 
