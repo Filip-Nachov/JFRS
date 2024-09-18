@@ -4,7 +4,7 @@ import java.awt.FlowLayout;
 
 class Main {
     public static void main(String[] args) {
-        String TITLE = "JFRS"; 
+        String TITLE = "Totem Protector"; 
 
         JFrame window = new JFrame();
         window.setLayout(new FlowLayout());
