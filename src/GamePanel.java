@@ -2,7 +2,8 @@
 import java.awt.Dimension;
 import javax.swing.JPanel;
 
-public class GamePanel extends JPanel{
+public class GamePanel extends JPanel implements Runnable{
+
     final int OriginalTileSize = 16;
     final int scale = 3;
 
@@ -18,5 +19,10 @@ public class GamePanel extends JPanel{
     public GamePanel() {
         this.setPreferredSize(new Dimension(ScreenWidth, ScreenHeight));
         this.setDoubleBuffered(true);
+    }
+
+    @Override
+    public void run() {
+        // TODO: write some code
     }
 }
